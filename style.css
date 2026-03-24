@@ -63,7 +63,14 @@ button {
     border-radius: 10px;
     cursor: pointer;
 }
-
+#startBtn {
+     background: #C21E56;   /* change this */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
 .correct {
     background: #4CAF50 !important;
     color: white;
