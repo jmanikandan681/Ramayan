@@ -1,13 +1,15 @@
 body {
-    margin: 0;
+    background: linear-gradient(to right, #fff5e1, #ffe4b5);
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #f9f9f9, #e6f2ff);
 }
 
-.quiz-container {
+.container {
     background: white;
+    padding: 20px;
+    margin: 50px auto;
+    width: 80%;
     border-radius: 12px;
-    padding: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
 h1 {
