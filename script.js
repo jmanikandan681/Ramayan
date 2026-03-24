@@ -1,64 +1,54 @@
 const questions = [
     {
-        question: "1. What is a central recommended means to moksha in the Gita?",
-        options: [
-            "Exclusive study of Vedas",
-            "Devotion to God (Bhakti)",
-            "Severe asceticism",
-            "Ritual magic"
-        ],
-        answer: 1
-    },
-    {
-        question: "2. Who is the speaker of Bhagavad Gita?",
-        options: ["Arjuna", "Vyasa", "Krishna", "Brahma"],
-        answer: 2
-    },
-    {
-        question: "3. What does Krishna teach Arjuna to do?",
-        options: [
-                "Leave the Battlefield",
-                  "Perform his duty",
-                    "Become a king",
-                        "Meditate only"
-    ],
-                answer: 1
-    },
-    {
-        question: "4. What is karma in the Bhagavad Gita?",
-          options:  ["Fate Only", "Knowledge","Worship","Action"],
-            answer: 3
-    },
-    {
-        question: "5. What happens to the soul after death?",
-        options: ["It is destroyed","It disappear","It changes bodies","It sleeps forever"],
-        answer: 2
-    },
-    {
-        question: "6. What is yoga in the Bhagavad Gita?",
-        options: ["Only physical exercise","Union with God","Be Peaceful","Eating Properly"],
-        answer:1
-    },
-    {
-        question: "7. What is Arjuna confused about at the beginning?",
-        options: ["His duty","His kingdom","His wealth","His teacher"],
-        answer:0
-    },
-    {
-        question: "8. What does Krishna say about the soul?",
-        options:["It is born and dies","It never exists", "It is weak", "It is eternal"],
-        answer:3
-    },
-    {
-        question: "9. What should one control according to the Gita?",
-        options: ["Nature","Other people","Mind and Senses","Wealth"],
-        answer: 2
-    },
-    {
-        question: "10. What is detachment (vairāgya)?",
-        options: ["Not doing any work","Leaving family","Not being attached to result","Being careless"],
-        answer: 2
-    }
+    question: "1. Who is the author of Ramayana?",
+    options: ["Ved Vyasa", "Valmiki", "Tulsidas", "Kalidasa"],
+    answer: 1
+  },
+  {
+    question: "2. Who was Ravana’s brother who supported Rama?",
+    options: ["Kumbhakarna", "Kumbhakarna", "Vibhishana", "Ahiravana"],
+    answer: 2
+  },
+  {
+    question: "3. What was the name of Hanuman’s mother?",
+    options: ["Anjana", "Kausalya", "Sumitra", "Kaikeyi"],
+    answer: 0
+  },
+  {
+    question: "4. Who killed Indrajit (Meghnad)?",
+    options: ["Rama", "Lakshmana", "Hanuman", "Sugriva"],
+    answer: 1
+  },
+  {
+    question: "5. Who helped Rama find Sita?",
+    options: ["Sugriva", "Hanuman", "Jambavan", "All of the above"],
+    answer: 3
+  },
+  {
+    question: "6. What is the name of Ravana’s kingdom?",
+    options: ["Ayodhya", "Lanka", "Mithila", "Hastinapura"],
+    answer: 1
+  },
+  {
+    question: "7. Who was responsible for Rama’s exile?",
+    options: ["Kaikeyi", "Kausalya", "Sumitra", "Sita"],
+    answer: 0
+  },
+  {
+    question: "8. Who accompanied Rama during exile?",
+    options: ["Bharata", "Shatrughna", "Lakshmana", "None"],
+    answer: 2
+  },
+  {
+    question: "9. Who was Jatayu’s brother?",
+    options: ["Sugriva", "Sampati", "Angada", "Bali"],
+    answer: 1
+  },
+  {
+    question: "10. What was the name of the forest where Rama lived in exile?",
+    options: ["Dandakaranya Forest", "Naimisha Forest", "Kamyaka Forest", "Vrindavan"],
+    answer: 0
+  }
 ];
 console.log(questions.length); 
 let currentQ = 0;
