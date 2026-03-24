@@ -6,7 +6,7 @@ const questions = [
   },
   {
     question: "2. Who was Ravana’s brother who supported Rama?",
-    options: ["Kumbhakarna", "Kumbhakarna", "Vibhishana", "Ahiravana"],
+    options: ["Indrajit", "Kumbhakarna", "Vibhishana", "Ahiravana"],
     answer: 2
   },
   {
