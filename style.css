@@ -33,7 +33,7 @@ h1 {
 .option {
     padding: 18px;
     border-radius: 14px;
-    background: #f0f8ff; /* light blue */
+    background: #cefac3; /* light green */
     border: 2px solid #cce0ff;
     font-size: 16px;
     cursor: pointer;
@@ -43,7 +43,7 @@ h1 {
 }
 
 .option:hover {
-    background: #d6ebff;
+    background: #a1f78b;
 }
 
 .option:active {
