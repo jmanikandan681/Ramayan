@@ -226,7 +226,7 @@ function showFlowers() {
         const flower = document.createElement("div");
         flower.classList.add("flower");
 
-        flower.innerText = ["🌸","🌼","🌺","🌻"][Math.floor(Math.random()*4)];; // you can change emoji
+        flower.innerText = ["🌸","🌼","🌺","🌻","🌷"][Math.floor(Math.random()*5)];; // you can change emoji
 
         flower.style.left = Math.random() * 100 + "vw";
         flower.style.animationDuration = (1 + Math.random()) + "s";
