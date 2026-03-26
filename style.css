@@ -180,7 +180,7 @@ button {
     position: absolute;
     top: -20px;
     font-size: 20px;
-    animation: fall 2s linear forwards;
+    animation: fall 4s linear forwards;
 }
 
 @keyframes fall {
